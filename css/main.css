@@ -90,6 +90,7 @@ textarea {
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -99,9 +100,28 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header img {
+  margin: 0;
+}
+
+header .header-divider {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  outline: blue dashed 3px;
+}
+
+header nav {
+  width: 60%;
+  padding: 0;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 25%;
+  margin: 0;
+  padding-left: 0;
 }
 
 footer {
@@ -109,6 +129,20 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 50px;
+}
+
+footer h4{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px 0;
+}
+
+footer p{
+  margin: 0;
+  margin-bottom: 50px;
 }
 
 footer .social-media-links {
@@ -123,6 +157,15 @@ footer .social-media-links p {
   align-items: center;
 }
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+.copyright {
+  padding: 20px 0;
+}
+
 .content-wrapper {
   display: flex;
   justify-content: center;
@@ -131,14 +174,14 @@ footer .social-media-links p {
 }
 
 /* ------------ Header Styles ------------ */
-.header-divider {}
 
-header nav ul li {
-  /*display: flex;*/
-}
 
-/* ------------ Footer Styles ------------ */
-.content-wrapper {}
+/*header nav ul li {
+  /*display: flex;
+}*/
+
+/* ------------ Footer Styles ------------ 
+
 
 .footer-content {}
 
@@ -146,7 +189,7 @@ header nav ul li {
 
 .social {}
 
-.copyright {}
+
 
 /* ------------ Mobile Styles - Homepage ------------ */
 
@@ -154,12 +197,18 @@ header nav ul li {
 .hero-area {
   display: flex;
   justify-content: center;
+  margin: 50px 0;
+}
+
+.hero-area .content-wrapper {
+  margin: 50px 0 50px 24px;
 }
 
 /* ---- Aside Area ---- */
 aside {
   display: flex;
   justify-content: center;
+  margin: 50px 0;
 }
 
 aside .content-wrapper {
@@ -167,16 +216,46 @@ aside .content-wrapper {
   flex-direction: column;
 }
 
+aside h3 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+aside p {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
 .form-description {}
 
 .form {}
+
+input[type="text" i] {
+  padding: 16px;
+  margin-bottom: 20px;
+  width: 92%;
+}
+
+input[type="button" i] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 20px 0;
+}
 
 /* ---- Features Area ---- */
 .features {
   display: flex;
   justify-content: center;
+  margin: 50px 0;
 }
 
+.features h2 {
+  margin: 0;
+  padding-bottom: 60px;
+}
 /*section .content-wrapper {
   display: flex;
   flex-direction: column;
@@ -189,16 +268,39 @@ aside .content-wrapper {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin-top: 0;
+  margin-block-start: 0;
+  margin-block-end: 0
+  padding-top: 40px;
+}
+
+.features article {
+  width: 60%;
+  margin: 30px 0;
 }
 
 .features-icon {}
 
-.features-item-description {}
+.features-item-description {
+  margin: 0;
+  padding-top: 40px;
+}
 
 /* ---- Reviews ---- */
 .reviews {
   display: flex;
   justify-content: center;
+  margin: 50px o;
+}
+
+.reviews img{
+  padding-top: 40px;
+}
+
+.reviews h3 {
+  width: 51%;
+  margin: 20px;
+
 }
 
 /* ============= About Page Styles ============= */
